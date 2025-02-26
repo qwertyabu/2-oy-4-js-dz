@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#inputArea {
+    margin-bottom: 20px;
+}
+
+#numberInput {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    width: 100px;
+    text-align: center;
+}
+
+#sendButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #555;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#sendButton:hover {
+    opacity: 0.8;
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 200px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#minus, #plus {
+    background-color: #555;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#minus:hover, #plus:hover {
+    opacity: 0.8;
+}
+
+#value {
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+#selectColor {
+    margin-top: 20px;
+}
+
+#colorPicker {
+    margin-top: 10px;
+}
